@@ -1,4 +1,100 @@
-body {
-    font-size: 15pt;
-    background: #ffff00;
+.nav1{
+    background-color: #000000;
+    color: #fcb900;
+    display: flex;
+    justify-content: space-between;
+    padding-top:0px;
+    padding-right:10px;
+}
+.box1{ 
+    height:40px;
+    width:260px;
+    text-align: center;
+}
+.box2{
+    height: 40px;
+    width: 400px;
+    padding-right:10px;
+    text-align: center;
+    
+}
+span ul{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    list-style: none;
+   
+}
+.nav2{
+    background-color: #fcb900;
+    color: #000000;
+    display: table-cell;  
+    justify-content: flex-start;
+    padding-right:50px;
+    height: 150px;
+    width: 1200px;
+}
+.nav2 select{
+    background-color: #fcb900;
+    border: none;
+    cursor: pointer;
+   // height:20px;
+    width: 100px;
+    font-size: 18px;
+}
+
+select option{
+    background-color: #ffffff;
+}
+
+.box3 img{
+   margin-left: 30px;
+   cursor: pointer;
+   height: 140px;
+   width: 220px;
+   display: inline;
+  // background-size: cover;
+}
+.box4{
+   // border: 2px solid red;
+    width: 900px;
+    padding-right: 100px;
+    font-size: 20px
+}
+.navsection{
+     display: flex;
+     justify-content: space-between;
+}
+.box5{
+    color:#ffffff;
+    background-color: #000000;          
+    cursor: pointer;     
+    margin-left: 150px;
+    height: 50px;
+}
+.box5:hover{
+    border: 2px solid black;
+    opacity: 0.5;
+    //background-color: #ffffff;
+}
+.herosection img{
+    height: 400px;
+    width:1300px;
+}
+h1{
+   text-align: center;
+}
+.imagesection{
+   display: flex;
+   justify-content: space-evenly;
+}
+.imagesection div{
+   border:2px solid black;
+   height:400px;
+   width:300px;
+}
+.imagesection div img{
+   height:300px;
+   width:200px;
+   
 }
